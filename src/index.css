@@ -3,16 +3,15 @@ body {
   color: white;
 }
 
+.no-bullets {
+  list-style-type: none;
+  padding: 0px;
+}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+#SideBar {
+  display: inline-block; /* Shrink to fit content */
+}
+
+#SideBar li:hover{
+  color:red;
 }
