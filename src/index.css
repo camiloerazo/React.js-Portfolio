@@ -10,6 +10,13 @@ body {
 
 #SideBar {
   display: inline-block; /* Shrink to fit content */
+  background-color: transparent; /*rgb(50, 47, 47);*/
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* The magic: blurs the background */
+}
+
+#root{
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #SideBar li:hover{
