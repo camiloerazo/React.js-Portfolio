@@ -8,15 +8,26 @@ body {
   padding: 0px;
 }
 
+#display {
+  padding: 150px;
+  margin-left: 100px;
+}
+
 #SideBar {
   display: inline-block; /* Shrink to fit content */
   background-color: transparent; /*rgb(50, 47, 47);*/
   border-radius: 15px;
   backdrop-filter: blur(10px); /* The magic: blurs the background */
+  height: 100vh; /* 100% of the viewport height */
+  position: fixed;
+  width: 120px;
+  padding: 20px;
+  margin: 20px;
 }
 
 #root{
   font-family: 'Ubuntu', sans-serif;
+  display:flex;
 }
 
 #SideBar li:hover{
